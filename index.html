@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+  </head>
+  <body>
+  <h2>State-sharing between Angular & React...<i>using Redux</i></h2>
+    <div ng-controller="IndexController as indexController" class="container-box angular">
+      <p class="header-font">State is updated using using <img src="angular.png" style="max-height: 70px" /></p>
+      <div>
+        <label class="label-font-size">Keep entering the tasks here :</label>
+        <input type="text" ng-model="indexController.task" />
+        <button href="#" ng-click="indexController.add()">Add task</button>
+      </div>
+    </div>
+    <div class="react-container container-box react"></div>
+  </body>
+  <script src="/bundle.js"></script>
+</html>

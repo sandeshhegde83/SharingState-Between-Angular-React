@@ -15,6 +15,7 @@ class App extends Component {
         <div>
           <p className="header-font">State is rendered using
             <img src="../../react.png" style={{maxHeight: '100px'}}/></p>
+          <p>Task List:-</p>
           <TodoList todos={this.props.todos}/>
         </div>
       );

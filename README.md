@@ -1,5 +1,6 @@
-# Demo for State Sharing between React and Angular using Redux
+# Sharing the state using the same Redux Store between React and Angular
 
+Calling Action Reducers from within Angular Controller; Store Subscribsction and updation happens from within React 
 ###Getting Started###
 
 ```
